@@ -30,12 +30,9 @@ p {
 }
 
 .hero-bg {
-  background-image: url(/img/developer-team.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 400px;
-  height: 500px;
+  width: 650px;
+  text-align: center;
+  
 }
 .about-title {
   text-transform: uppercase;
@@ -365,7 +362,8 @@ p {
     padding: 50px 0;
   }
   .hero-bg {
-    height: 375px;
+    width: 100%;
+   
   }
   .hero-text {
     height: unset;
