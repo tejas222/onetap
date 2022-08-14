@@ -15,8 +15,13 @@ p {
 .hero-text {
   height: 550px;
   display: flex;
+  justify-content: center;
   align-items: center;
+  flex-direction: column;
   padding-left: 30px;
+}
+.hero-button .btn{
+  border-radius: 0;
 }
 .first-text {
   font-size: 45px;
@@ -30,12 +35,9 @@ p {
 }
 
 .hero-bg {
-  background-image: url(/img/developer-team.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 400px;
-  height: 500px;
+  width: 650px;
+  text-align: center;
+  
 }
 .about-title {
   text-transform: uppercase;
@@ -365,7 +367,8 @@ p {
     padding: 50px 0;
   }
   .hero-bg {
-    height: 375px;
+    width: 100%;
+   
   }
   .hero-text {
     height: unset;
